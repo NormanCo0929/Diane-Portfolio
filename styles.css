@@ -2,6 +2,7 @@
   --main-white: #FFFFFF;
   --main-dirty-white: #F2F4F3;
   --main-dark: #000000;
+  --main-gray: #565456;
 }
 
 *, ::before, ::after {
@@ -26,9 +27,9 @@ ul {
 
 a {
   text-decoration: none;
-  color: #565456;
+  color: var(--main-gray);
   cursor: pointer;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 a:hover {
@@ -41,7 +42,7 @@ a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100px;
+  height: 80px;
   width: 100%;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   background-color: var(--main-white);
@@ -54,7 +55,7 @@ a:hover {
 }
 
 .nav-list li {
-  padding: 20px 40px;
+  padding: 10px 20px;
 }
 
 .hero {
@@ -73,22 +74,31 @@ a:hover {
 }
 
 .profile h6 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 100;
-  padding: 150px 0 50px 0;
+  padding: 0 0 20px 0;
 }
 
 .profile h3 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 200;
-  padding: 20px 0 40px 0;
+  padding: 20px 0 20px 0;
 }
 
 .profile h1 {
   font-size: 140px;
   font-weight: 400;
   font-family: "Merriweather";
-  padding-top: 40px;
+  padding: 20px 0;
+}
+
+.profile p {
+  padding: 20px 0;
+}
+
+.profile p a {
+  cursor: pointer;
+  color: var(--main-dark);
 }
 
 .underline {
