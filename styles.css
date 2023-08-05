@@ -68,19 +68,19 @@ a:hover {
 }
 
 .profile {
-  margin: 100px 50px 0 0;
+  margin: 20px auto;
   color: var(--main-dark);
   text-align: center;
 }
 
 .profile h6 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 100;
   padding: 0 0 20px 0;
 }
 
 .profile h3 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 200;
   padding: 20px 0 20px 0;
 }
